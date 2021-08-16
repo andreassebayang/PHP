@@ -38,4 +38,17 @@ var_dump(7e-3);
 echo "Underscore di Floting Point : ";
 var_dump(1_234.654);
 
+
+
+// Secara default, kapasitas di PHP ada batasnya, 2147483647 untuk sitem operasi 32 bit
+// 9223372036854775807 untuk sistem operasi 64 bit
+// Jika membuat number integer yang melebihi dari nilai tersebut, maka secara otomatis tipe numbernya akan berubah menjadi floating point
+
+// Pembuktian
+echo "Integer Overflow 32 bit : ";
+var_dump(2147483658);
+
+echo "Integer Overflow 664 bit : ";
+var_dump(9223372036854775809);
+
 ?>
