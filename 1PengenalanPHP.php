@@ -8,6 +8,7 @@
 // extension file PHP adalah .php 
 // diawal kode program PHP wajib menambahkan  <?php dan diakhiri dengan 
 // Untuk menampilkan program PHP dapat menggunakan echo
+// untuk menjalankan program PHP dengan cara mengetikkan php namafile.php
 
 echo "Hello World";
 
