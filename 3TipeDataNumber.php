@@ -6,6 +6,7 @@
 // diPHP bisa menambahkan _ (garis bawah) diangka, ini hanya agar mudah dibaca oleh manusia, dan saat dijalankan _ (garis bawah) tersebut akan di ignore atau tidak akan dibaca
 // Untuk angka negatif bisa menggunakan tanda - (minus) didepan angka
 
+
 // Contoh Tipe Data Integer
 echo "Decimal : ";
 var_dump(1234); // Var dump adalah perintah untuk ngedump atau mengecek sebuah data
@@ -21,6 +22,8 @@ var_dump(0b111111);
 
 echo "Contoh Underscore: ";
 var_dump(130_567_000);
+
+
 
 // Contoh Tipe Data Floating
 echo "FLoataing Point: ";
