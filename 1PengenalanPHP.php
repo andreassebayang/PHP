@@ -12,4 +12,5 @@
 
 echo "Hello World";
 
+// untuk menjalankan program php dapat dengan php namafile.php
 ?>
